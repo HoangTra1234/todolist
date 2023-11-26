@@ -1,0 +1,22 @@
+/* variable color */
+:root {
+    --purpel-color: #6C63FF;
+    --white-color: #fff;
+    --black-color: #000;
+    --Lavender-Gray: #C3C1E5;
+}
+
+/* variable space */
+:root {
+    --space-width-full: 100vw;
+    --space-height-full: 100vh;
+    --space-90: 90%;
+    --space-80: 80%;
+    --space-70: 70%;
+    --space-60: 60%;
+    --space-50: 50%;
+    --space-40: 40%;
+    --space-30: 30%;
+    --space-20: 20%;
+    --space-10: 10%;
+}

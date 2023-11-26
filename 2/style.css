@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.top-menu a{
+    cursor: pointer;
+    color: blanchedalmond;
+}
+.top-menu{
+    background-color: cadetblue;
+    display: grid; /* chia cột  */
+    grid-template-columns: auto auto auto; /* hàng ngang column */
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    
+}
+.top-menu .page {
+    border: 1.4px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.top-menu .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.top-menu .icon {
+    cursor: pointer;
+    font-size: 20px;
+}
+.main-conten .selector{
+    padding: 16px;
+    text-align: center;
+}
+.main-conten .selector a {
+    color: burlywood;
+    padding: 12px 20px;
+}
+#sreach-input{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid black 1px;
+}
